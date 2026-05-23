@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+venv/
+env/
+.venv/
+
+# LaTeX
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bbl
+*.blg
+
+# Data (Crucial: Prevents GitHub from crashing on 82 GB CMS data)
+*.npz
+*.csv
+*.h5
+
+# OS
+.DS_Store
+Thumbs.db
